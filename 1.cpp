@@ -24,7 +24,7 @@ public:
         return -1;
     }
 };
-//Linked list cycle method
+//Linked list cycle method(Floyd's Tortoise and Hare (Cycle Detection)) Time-O(n)  space -O(1)
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
